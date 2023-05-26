@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neumorphic-button {
+    border-radius: 10px;
+    box-shadow: -5px -5px 30px rgba(96, 165, 250, 0.3), 
+                5px 5px 30px rgba(29, 78, 216, 0.5);
+}
+.neumorphic-button:hover {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px rgba(37, 99, 235,1.0)
+}
+.neumorphic-in-button {
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px rgba(37, 99, 235,1.0)
+}
+
+.footer-style {
+    box-shadow: -5px -5px 30px rgba(96, 165, 250, 0.3), 
+                5px 5px 30px rgba(29, 78, 216, 0.5);
+}
